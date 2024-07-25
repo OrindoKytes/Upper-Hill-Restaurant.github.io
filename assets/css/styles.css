@@ -28,7 +28,7 @@
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /*========== Margenes ==========*/
+  /*========== Margins ==========*/
   --mb-1: .5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
@@ -131,7 +131,7 @@ img{
 
 /*========== LAYOUT ==========*/
 .bd-container{
-  max-width: 960px;
+  max-width: 1500px;
   width: calc(100% - 2rem);
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
@@ -180,7 +180,14 @@ img{
   margin-bottom: var(--mb-2);
 }
 
-.nav__link, .nav__logo, .nav__toggle{
+.nav__logo {
+  color: var(--text-color);
+  font-weight: var(--font-medium);
+  font-size: 1.5rem;
+}
+
+.nav__link,
+.nav__toggle {
   color: var(--text-color);
   font-weight: var(--font-medium);
 }
